@@ -1,0 +1,11 @@
+{
+  "name": "translate-test",
+  "scripts": {
+    "wp-env": "wp-env",
+    "make-pot": "wp i18n make-pot ./ languages/ja.pot",
+    "create-mo-ja": "wp i18n make-mo ./languages/ja.po"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.11.0"
+  }
+}
