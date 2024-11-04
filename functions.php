@@ -5,4 +5,4 @@ function translate_test_load_theme_textdomain() {
   // var_dump( $result );
   // echo '</pre>';
 }
-add_action( 'init', 'translate_test_load_theme_textdomain' );
+add_action( 'after_setup_theme', 'translate_test_load_theme_textdomain' );
